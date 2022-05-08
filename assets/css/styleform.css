@@ -324,9 +324,8 @@
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar li:hover > a {
   color: #47b2e4;
-  
   text-shadow: 0 0 20px #445d89;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
