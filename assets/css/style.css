@@ -507,8 +507,8 @@ section {
   background-size: cover;
 }
 .blob{
-  background: url("../gambar/cloudx.png") 0% 0% no-repeat;
-  background-size: 50% 60%;
+  background: url("../gambar/Atronot.png") 50% 10% no-repeat, url("../gambar/IMG_5260\ 2.png") 50% 50% no-repeat, url("../gambar/plan.png") 100% 100% no-repeat;
+  background-size: 10% 20%, 60% 100%, 30% 50%;
 }
 .hero .pad_kiri{
   margin: 90px;
@@ -516,22 +516,21 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 30px;
-  font-weight: 700;
-  color: #4884D4;
-  text-shadow: 2px 1px #ffffff;
+  font-weight: 500;
+  color: #F2E5DB;
 }
 .hero p{
   margin: 0;
   font-family: "Alagard";
   font-size: 90px;
-  font-weight: 900;
-  color: #0f4892;
-  text-shadow: 3px 2px #ffffff;
+  font-weight: 580;
+  color: #CBDBFC;
+  text-shadow: 6px 5px #34528A;
 }
 .hero h2 {
   font-family: "Quicksand";
-  color: #2f2a3a;
-  text-shadow: rgb(32 39 73) 1px 1px;
+  color: #ffffff;
+  text-shadow: rgb(161, 169, 211) 1px 1px 20px;
   font-size: 20px;
 }
 .hero .btn-get-started {
@@ -540,9 +539,9 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #F2E5DB;
-  background: #454194;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  color: #CBDBFC;
+  background: #34528A;
+  box-shadow: 0px 5px 30px rgba(192, 198, 255, 0.575);
 }
 .hero .btn-rule-book {
   margin-top: 30px;
@@ -551,9 +550,9 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #454194;
-  background: #F2E5DB;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  color: #34528A;
+  background: #CBDBFC;
+  box-shadow: 0px 5px 30px rgba(192, 198, 255, 0.575);
 }
 .hero .btn-get-started span {
   font-family: 'Alagard', 'Retro Gaming', 'Quicksand';
@@ -611,8 +610,8 @@ section {
   }
   
   .blob{
-    background: url("../gambar/cloudx.png") 0% 8% no-repeat;
-    background-size: 40% 15%;
+    background: url("../gambar/Atronot.png") 60% 0% no-repeat, url("../gambar/IMG_5260\ 2.png") 0% 0% no-repeat, url("../gambar/plan.png") 100% 70% no-repeat;
+    background-size: 30% 20%, 100% 100%, 50% 40%;
   }
 }
 @media (max-width: 768px) {
@@ -638,8 +637,8 @@ section {
     margin-left: 0;
   }
   .blob{
-    background: url("../gambar/cloudx.png") 0% 8% no-repeat;
-    background-size: 40% 15%;
+    background: url("../gambar/Atronot.png") 80% 0% no-repeat, url("../gambar/IMG_5260\ 2.png") 50% 50% no-repeat, url("../gambar/plan.png") 100% 95% no-repeat;
+    background-size: 30% 20%, 100% 100%, 30% 15%;
   }
 }
 
@@ -696,7 +695,10 @@ section {
   background: linear-gradient(#0198D4,#B0D7F7 );/*url(../img/hero-bg.png) top center no-repeat*/
   background-size: cover;
 }
-
+.blobvalue{
+  background: url("../gambar/Cloud2.png") 100% 0% no-repeat, url("../gambar/fahmi-ufo\ 1.png") 0% 15% no-repeat,  url("../gambar/cloudx.png") 10% 50% no-repeat, url("../gambar/dragon\ 1.png") 100% 0% no-repeat, url("../gambar/nago.png") 100% 70% no-repeat;
+  background-size: 30% 20%, 30% 20%, 40% 25%, 25% 20%, 25% 20%;
+}
 .values .box {
   padding: 60px;
   padding-top: 80px !important;
@@ -783,8 +785,8 @@ section {
 .values h2{
   font-size: 70px;
   font-weight: 100;
-  color: #454194;
-  text-shadow: 3px 2px #202749;
+  color: #34528A;
+  text-shadow: 3px 4px #0072a3;
 }
 .values h3 {
   font-size: 30px;
@@ -802,11 +804,11 @@ section {
 
 @media (max-width: 991px){
   .values .box_1{
-    background-size: 460px;
-    padding: 30px;
+    background-image: url("../gambar/Dirt_md.png") !important;
+    background-size: 500px;
   }
   .values .box{
-    padding:40px ;
+    padding-top:40px;
   }
   .values .col-md-4 .box{
     padding: 30px;
@@ -822,21 +824,33 @@ section {
   .values h3{
 
   }
+  .blobvalue{
+    background: url("../gambar/Cloud2.png") 100% 0% no-repeat, url("../gambar/fahmi-ufo\ 1.png") 0% 15% no-repeat,  url("../gambar/cloudx.png") 10% 50% no-repeat, url("../gambar/dragon\ 1.png") 100% 0% no-repeat, url("../gambar/nago.png") 100% 70% no-repeat;
+    background-size: 30% 20%, 30% 20%, 40% 25%, 25% 20%, 25% 20%;
+  }
 }
 
 @media (max-width: 768px) {
   .values h2{
     font-size: 60px;
-    color: #2e14a0;
-  }
-  .values p{
-
   }
   .values h3{
-
+    font-size: 25px !important;
+  }
+  .values p{
+    font-size: 30px !important;
+  }
+  .values .box_1{
+    background-image: url("../gambar/Dirt_md.png") !important;
+    background-size: 380px;
   }
   .values .box{
-    background-size: 350px;
+    padding-top: 60px;
+    background-size: 380px;
+  }
+  .blobvalue{
+    background: url("../gambar/Cloud2.png") 100% 0% no-repeat, url("../gambar/fahmi-ufo\ 1.png") 0% 10% no-repeat,  url("../gambar/cloudx.png") 5% 30% no-repeat, url("../gambar/dragon\ 1.png") 100% 0% no-repeat, url("../gambar/nago.png") 100% 50% no-repeat;
+    background-size: 30% 10%, 40% 10%, 40% 10%, 25% 10%, 35% 15%;
   }
 }
 
@@ -1005,13 +1019,14 @@ section {
 /*Timeline*/
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
-  background: #855001;
+  background: transparent;
   min-height: 300px;
   align-items: center;
   justify-content: center;
-  border-style: dashed;
+  border-style: solid;
   border-width: 10px;
-  border-color: #14A02E;
+  border-color: #CBDBFC;
+  box-shadow: 1px 2px 20px #ffffff;
   border-radius: 10px;
 }
 .swiper-container-wrapper--timeline .swiper-slide .container {
@@ -1023,9 +1038,15 @@ section {
   color: #ffffff;
   font-family: "Alagard";
   text-align: center;
-  text-shadow: 5px 3px 30px #a1a06b;
+  font-weight: 100;
+  -webkit-text-stroke: 3px #34528A;
   opacity: 0;
   transition: 0.5s ease 0.5s;
+}
+@media (max-width: 768px){
+  .swiper-container-wrapper--timeline .swiper-slide .title {
+    -webkit-text-stroke: 2px #34528A;
+  }
 }
 .swiper-container-wrapper--timeline .swiper-slide-active .title {
   opacity: 1;
@@ -1039,7 +1060,7 @@ section {
   width: 75%;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar-fill {
-  background-color: #000000;
+  background-color: #34528A;
  
   
   height: 3px;
@@ -1053,7 +1074,7 @@ section {
   height: 3px;
   
   border-width: 2px;
-  background-color: #000000;
+  background-color: #34528A;
   content: "";
 }
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar:after {
@@ -1102,7 +1123,7 @@ section {
   transform: translateX(50%) translateY(-50%);
   width: 10px;
   height: 10px;
-  background: #000000;
+  background: #34528A;
 
   content: "";
   transition: 0.2s all ease-in-out;
@@ -1111,16 +1132,18 @@ section {
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title {
   font-weight: 400;
+  color: #34528A;
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title:after {
-  background: #000000;
+  background: #34528A;
+  color: #34528A;
   width: 18px;
   height: 18px;
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title {
-  color: #000000;
+  color: #7CD8EB;
   font-weight: 16px;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title:after {
