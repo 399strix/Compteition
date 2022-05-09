@@ -7,15 +7,15 @@
 /* font input*/
 @font-face{
   font-family: "Retro Gaming";
-  src: url('font/Retro-Gaming.ttf') format('truetype');
+  src: url('../../font/Retro-Gaming.ttf') format('truetype');
 }
 @font-face{
   font-family: "Alagard";
-  src: url('font/alagard.ttf') format('truetype');
+  src: url('../../font/alagard.ttf') format('truetype');
 }
 @font-face{
   font-family: "Quicksand";
-  src: url('font/Quicksand.ttf') format('truetype');
+  src: url('../../font/Quicksand.ttf') format('truetype');
 }
 /*--------------------------------------------------------------
 # General
@@ -324,9 +324,8 @@
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar li:hover > a {
   color: #47b2e4;
-  
   text-shadow: 0 0 20px #445d89;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
@@ -454,7 +453,7 @@
   font-size: 15px;
   color: #37517e;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover, .navbar-mobile , .navbar-mobile li:hover > a {
   color: #47b2e4;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
