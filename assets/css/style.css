@@ -698,7 +698,7 @@ section {
   background-size: cover;
 }
 .blobvalue{
-  background: url("../gambar/satelit\ 1.png") 10% 5% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Cloud\ ppt1.png") 0% 100% no-repeat;; 
+  background: url("../gambar/satelit\ 1.png") 2% 5% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Cloud\ ppt1.png") 0% 100% no-repeat;; 
   background-size: 15% 12%, 15% 30%, 100% 50%;
 }
 
@@ -1101,10 +1101,10 @@ section {
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title {
   position: absolute;
   font-family: "quicksand";
-  font-weight: 400;
+  font-weight: 800;
   right: 0;
-  color: black;
-  text-shadow: -1px 0 #ecffff, 0 1px #ecffff, 1px 0 #ecffff, 0 -1px #ecffff;
+  color: #ffffff;
+  /*-webkit-text-stroke: 1px #5E4596;*/
   transform: translateX(50%);
   transition: 0.2s all ease-in-out;
   transition-delay: 0s;
@@ -1126,8 +1126,8 @@ section {
   z-index: 1;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title {
-  font-weight: 400;
-  color: #202020;
+  font-weight: 700;
+  color: #ffffff;
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title:after {
@@ -1137,7 +1137,7 @@ section {
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title {
-  color: #000000;
+  color: #7CD8EB;
   font-weight: 16px;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title:after {

@@ -1038,8 +1038,9 @@ section {
   color: #ffffff;
   font-family: "Alagard";
   text-align: center;
-  font-weight: 100;
-  -webkit-text-stroke: 3px #34528A;
+  font-weight: 400;
+  -webkit-text-stroke: 1px #7CD8EB;
+  text-shadow: 5px 5px #34528A;
   opacity: 0;
   transition: 0.5s ease 0.5s;
 }
@@ -1108,7 +1109,9 @@ section {
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title {
   position: absolute;
   font-family: "quicksand";
-  font-weight: 400;
+  font-weight: 600;
+  color: #34528A;
+  text-shadow: 1px 1px 10px #ffffffbd;
   right: 0;
   transform: translateX(50%);
   transition: 0.2s all ease-in-out;
@@ -1131,8 +1134,9 @@ section {
   z-index: 1;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title {
-  font-weight: 400;
+  font-weight: 600;
   color: #34528A;
+  text-shadow: 1px 1px 10px #ffffffbd;
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title:after {
@@ -1144,7 +1148,7 @@ section {
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title {
   color: #7CD8EB;
-  font-weight: 16px;
+  font-weight: 400;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title:after {
   background: #7CD8EB;
@@ -1158,8 +1162,12 @@ section {
 @media (max-width: 768px) {
   .swiper-container-wrapper--timeline .swiper-slide .title {
     font-size: 50px;
+    color: #ffffff;
     font-family: "Alagard";
     text-align: center;
+    font-weight: 100;
+    -webkit-text-stroke: 1px #7CD8EB;
+    text-shadow: 4px 4px #34528A;
     opacity: 0;
     transition: 0.5s ease 0.5s;
   }
@@ -1169,8 +1177,9 @@ section {
   .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title {
     position: absolute;
     font-size: 9px;
+    text-shadow: 1px 1px 10px #ffffffbd;
     font-family: "quicksand";
-    font-weight: 400;
+    font-weight: 1000;
     right: 0;
     transform: translateX(50%);
     transition: 0.2s all ease-in-out;

@@ -702,7 +702,7 @@ section {
 }
 .values .blobvalue{
   background: url("../gambar/batubatu.png") 50% 50% no-repeat, url("../gambar/roketmiring.png") 0% 2% no-repeat, url("../gambar/bintangtang.png") 50% 50% no-repeat;; 
-  background-size: 100% 30%, 20% 30%, 100% 100%;
+  background-size: 100% 30%, 20% 22%, 100% 100%;
 }
 .values .box {
   padding: 60px;
@@ -839,7 +839,9 @@ section {
 
 @media (max-width: 768px) {
   .values h2{
-    font-size: 60px;
+    font-size: 56px;
+    text-shadow: 2px 2px 20px #d1d9ff;
+    text-align: center;
   }
   .values h3{
     font-size: 25px ;
@@ -858,7 +860,7 @@ section {
   }
   .blobvalue{
     background: url("../gambar/batubatu.png") 50% 40% no-repeat, url("../gambar/roketmiring.png") 0% 10% no-repeat, url("../gambar/bintangtang.png") 50% 50% no-repeat !important; 
-    background-size: 100% 10%, 40% 25%, 100% 70% !important;
+    background-size: 100% 10%, 45% 15%, 100% 70% !important;
   }
 }
 
