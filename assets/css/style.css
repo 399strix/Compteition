@@ -866,9 +866,10 @@ section {
   transition: 0.3s;
 }
 .clients h2{
-  font-size: 25px;
+  font-size: 50px;
+  font-weight: 100;
   color: #454194;
-  text-shadow: 2px 1px #202749;
+  text-shadow: 3px 2px #202749;
 }
 .clients .clients-slider .swiper-slide img:hover {
   opacity: 1;
@@ -879,8 +880,8 @@ section {
 }
 .clients p{
   font-family: "Quicksand";
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 700;
   color: #422433;
 }
 .clients .container1{
