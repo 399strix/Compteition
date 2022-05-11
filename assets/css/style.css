@@ -853,7 +853,7 @@ section {
     background-size: 350px;
   }
   .blobvalue{
-    background: url("../gambar/satelit\ 1.png") 10% 5% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Cloud\ ppt1.png") 0% 100% no-repeat;; 
+    background: url("../gambar/satelit\ 1.png") 0% 0% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Cloud\ ppt1.png") 0% 100% no-repeat;; 
     background-size: 20% 9%, 23% 20%, 100% 50%;
   }
 }
@@ -1164,7 +1164,7 @@ section {
     position: absolute;
     font-size: 9px;
     font-family: "quicksand";
-    font-weight: 400;
+    font-weight: 800;
     right: 0;
     transform: translateX(50%);
     transition: 0.2s all ease-in-out;

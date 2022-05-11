@@ -818,6 +818,10 @@ section {
     background-image: url("../gambar/Dirt_md.png");
     background-size: 600px;
   }
+  .blobvalue{
+    background: url("../gambar/batubatu.png") 50% 40% no-repeat, url("../gambar/roketmiring.png") 0% 10% no-repeat, url("../gambar/bintangtang.png") 50% 50% no-repeat !important; 
+    background-size: 100% 10%, 30% 20%, 100% 70% !important;
+  }
   .values .ukuranbox{
     background-size: 350px;
   }
@@ -835,12 +839,15 @@ section {
   .values h3{
 
   }
+  .values h2{
+    text-shadow: 1px 1px 15px #d1d9ff;
+  }
 }
 
 @media (max-width: 768px) {
   .values h2{
     font-size: 56px;
-    text-shadow: 2px 2px 20px #d1d9ff;
+    text-shadow: 1px 1px 15px #d1d9ff;
     text-align: center;
   }
   .values h3{
