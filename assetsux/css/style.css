@@ -852,46 +852,90 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Main sponsor
 --------------------------------------------------------------*/
-.clients{
+#mainspo{
+  padding: 15px 0px;
   background: linear-gradient(#B0D7F7, #edf7ff);;
 }
-.clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
+#mainspo .clients .container .comingsoon{
+  color: #445d89d6;
+  text-shadow: 1px 1px #202749;
+  margin-bottom: 50px;
+  font-size: 24px;
+  padding-top: 36px;
 }
-.clients h2{
-  font-size: 50px;
-  font-weight: 100;
-  color: #454194;
-  text-shadow: 3px 2px #202749;
+#mainspo .clients .container .comingsoon span{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation-delay: 1s;
 }
-.clients .clients-slider .swiper-slide img:hover {
-  opacity: 1;
+.clients .section-title{
+  padding-bottom: 10px;
 }
-.clients .clients-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
+.clients {
+  padding: 12px 0;
+  text-align: center;
 }
-.clients p{
-  font-family: "Quicksand";
-  font-size: 30px;
-  font-weight: 700;
-  color: #422433;
+.clients img {
+  width: 175px;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
 }
-.clients .container1{
-  margin: 100px;
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
 }
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #8bbfe6;
-  opacity: 1;
-  /*border: 1px solid #4154f1;*/
+@media (max-width: 767.98px) {
+  .clients img {
+    max-width: 105px;
+    filter: none;
+  }
 }
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4884D4;
+@media (max-width: 575.98px) {
+  .clients img {
+    max-width: 120px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Sponsor Sub
+--------------------------------------------------------------*/
+
+.spons {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+@media(min-width: 579px){
+  .spons .col{
+  justify-content: center !important;
+  align-items: center !important;
+  }
+}
+.spons img {
+  width: 150px;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 5px 0;
+}
+.spons img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+@media (max-width: 767.98px) {
+  .spons img {
+    max-width:80px;
+  }
+}
+@media (max-width: 575.98px) {
+  .spons img {
+    max-width:95px;
+  }
 }
 
 
