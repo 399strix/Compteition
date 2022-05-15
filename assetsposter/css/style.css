@@ -532,6 +532,7 @@ section {
 }
 .hero h3{
   color: #ffffff;
+  padding-top: 40px;
   text-shadow: 2px 1px 40px #d4e5f26e;
   font-size: 25px;
   font-weight: 200;
@@ -729,6 +730,14 @@ section {
 }
 
 .values .box_1{
+  padding: 60px;
+  padding-top: 80px !important;
+  text-align: center;
+  align-items: center;
+  transition: 0.3s;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("../gambar/Dirt_lg.png") ;
   background-size: 800px;
 }
@@ -766,6 +775,9 @@ section {
   font-size: 35px;
   color: #ffffff;
   font-weight: 500;
+}
+.values .box_1 h3{
+  font-size: 50px;
 }
 .values .desc_timeline{
   font-size: 15px;
@@ -852,6 +864,9 @@ section {
     font-size: 56px;
     text-shadow: 1px 1px 15px #d1d9ff;
     text-align: center;
+  }
+  .values .box_1 h3{
+    font-size: 25px;
   }
   .values h3{
     font-size: 25px ;
