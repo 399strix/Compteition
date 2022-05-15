@@ -110,7 +110,7 @@
 
         <header class="section-header">
           <h2>POSTER COMPETITION</h2>
-          <p>Register Your Team</p>
+          <p>Register</p>
         </header>
 
         <div class="row">
@@ -120,14 +120,14 @@
                 <div class="col-6 menengah turun">
                   <div class="row gy-4 data">
                     <div class="col-md-6 form-group">
-                    <label for="nama_team" class="form-label">Team Name</label>
-                    <input type="text" name="tim" class="form-control" placeholder="Nama Tim" required>
+                    <label for="nama_team" class="form-label">Full Name</label>
+                    <input type="text" name="tim" class="form-control" placeholder="Nama Lengkap" required>
                   </div>
       
                   <div class="col-md-6 form-group">
-                    <label for="level_team" class="form-label">Team Level</label>
+                    <label for="level_team" class="form-label">Educational Level</label>
                     <select class="form-select col-md-6 form-control control" aria-label="Default select example" required>
-                      <option value="{{ null }}" selected>Select level your team</option>
+                      <option value="{{ null }}" selected>Select your education level</option>
                       <option value="sma">Senior High School</option>
                       <option value="kuliah">Bachelor</option>
                     </select>
@@ -139,30 +139,33 @@
                   </div>
     
                   <div class="col-md-6 form-group">
-                    <label for="email_team" class="form-label">Team Email</label>
-                    <input type="email" class="form-control" name="email" placeholder="Email Tim" required>
+                    <label for="email_team" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
                   </div>
 
                   <div class="col-md-6 form-group">
-                    <label for="username_telegram_team" class="form-label">Team Username Telegram</label>
+                    <label for="username_telegram_team" class="form-label">Team Member Province</label>
+                    <input type="text" class="form-control" name="Provinsi" placeholder="Provinsi" >
+                  </div>
+
+                  <div class="col-md-6 form-group">
+                    <label for="username_telegram_team" class="form-label">Username Telegram</label>
                     <input type="text" name="tele" class="form-control" placeholder="Username Telegram" required>
                   </div>
     
                   <div class="col-md-6 form-group">
-                    <label for="no_handphone_team" class="form-label">Team Phone Number</label>
-                    <input type="number" class="form-control" name="nomerhp" placeholder="Nomor Telepon Tim" required>
-                  </div>
-
-                  <div class="col-md-12 form-group">
-                    <label for="level_team" class="form-label">Number of Team</label>
-                    <select id="reason-list" class="col-md-6 form-control control" required>
-                      <option value="">Jumlah Tim</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
+                    <label for="no_handphone_team" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" name="nomerhp" placeholder="Nomor Telepon" required>
                   </div>
                   
+                  <div class="col-md-6 form-group">
+                    <label for="username_telegram_team" class="form-label">ID Card</label>
+                    <div class="col-md-6 form-group col-kiri form-control file-upload-wrapper" data-text="KTM / Kartu Pelajar">
+                      <input name="file-upload-field" type="file" class="form-control padding" value="" >
+                      <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
+                    </div>
+                  </div>
+
                   <div class="col-md-12 gy-4 text-center marginturun">
                     <div class="loading">Loading</div>
                     <div class="error-message">Please fill the form </div>
@@ -174,112 +177,36 @@
                 
               </div>
             </form>
+            
             <form action="" id="my_form" class="php-email-form needs-validation" method="post">
               <div class="row gy-4 ">
                 <div class="col-6 menengah turun">
                     <!--<form class="form">-->
                       <div class="row gy-4 data">
           
-                        <h2>Information Member Team</h2>
+                        <h2>TWIBBON SUBMISSION</h2>
+                        <a href="#">
+                          <p class="twibbon">click here for twibbon</p>
+                        </a>
           
-                        <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">Team Member Name</label>
-                          <input type="text" name="nama" class="form-control" placeholder="Nama Lengkap" >
+                        <div class="col-md-12 form-group">
+                          <label for="username_telegram_team" class="form-label">Username Instagram </label>
+                          <input type="link" name="nama" class="form-control" placeholder="Link Instagram" >
                         </div>
-          
-                        <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">Team Member Province</label>
-                          <input type="text" class="form-control" name="Provinsi" placeholder="Provinsi" >
-                        </div>
-          
-                        <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">ID Card</label>
-                          <div class="col-md-6 form-group col-kiri form-control file-upload-wrapper" data-text="KTM / Kartu Pelajar">
-                            <input name="file-upload-field" type="file" class="form-control padding" value="" >
-                            <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
-                          </div>
-                        </div>
-          
-                        <div class="col-md-6 form-group ">
-                          <label for="username_telegram_team" class="form-label">Member Team Certificate of Enrollment</label>
-                          <div class="col-md-6 form-group col-kiri col-bawah form-control file-upload-wrapper" data-text="SKMA">
+                        
+                        <div class="col-md-12 form-group ">
+                          <label for="username_telegram_team" class="form-label">Twibbon Submission</label>
+                          <div class="col-md-6 form-group col-kiri col-bawah form-control file-upload-wrapper" data-text="Bukti Upload Twibbon">
                             <input name="file-upload-field" type="file" class="form-control" value="" >
                             <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
                           </div>
                         </div>
-                        
+
                         <div class="col-md-12 gy-4 text-center marginturun">
                           <div class="loading">Loading</div>
                           <div class="error-message">Please fill the form </div>
                           <div class="sent-message">Your message has been sent. Thank you!</div>
-                          <a>
-                            <button type="submit">Submit</button>
-                          </a>
-                        </div>
-                      </div>
-                  
-                      </div>
-                    <!--</form>-->
-                </div>
-              </div>
-            </form>
-            <form action="" id="my_form" class="php-email-form needs-validation" method="post">
-              <div class="row gy-4 ">
-                <div class="col-6 menengah turun">
-                    <!--<form class="form">-->
-                      <div class="row gy-4 data">
-          
-                        <h2>Information Payment Team</h2>
-          
-                        <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">Team's Account Name </label>
-                          <input type="text" name="nama" class="form-control" placeholder="Nama Tim" >
-                        </div>
-          
-                        <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">Account Number</label>
-                          <input type="text" class="form-control" name="Provinsi" placeholder="Rekening" >
-                        </div>
-          
-                        <div class="col-md-12 form-group">
-                          <label for="username_telegram_team" class="form-label">Payment Receipt</label>
-                          <div class="col form-group col-kiri form-control file-upload-wrapper" data-text="Bukti Transfer">
-                            <input name="file-upload-field" type="file" class="form-control padding" value="" >
-                            <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
-                          </div>
-                        </div>
-                        
-                        <div class="col-md-12 gy-4 text-center marginturun">
-                          <div class="loading">Loading</div>
-                          <div class="error-message">Please fill the form </div>
-                          <div class="sent-message">Your message has been sent. Thank you!</div>
-                          <a>
-                            <button type="submit">Submit</button>
-                          </a>
-                        </div>
-                      </div>
-                    <!--</form>-->
-                </div>
-              </div>
-            </form>
-            <form action="" id="my_form" class="php-email-form needs-validation" method="post">
-              <div class="row gy-4 ">
-                <div class="col-6 menengah turun">
-                    <!--<form class="form">-->
-                      <div class="row gy-4 data">
-          
-                        <h2>Result Competition Team</h2>
-          
-                        <div class="col-md-12 form-group">
-                          <label for="username_telegram_team" class="form-label">Team Username Telegram </label>
-                          <input type="link" name="nama" class="form-control" placeholder="Telegram Tim" >
-                        </div>
-                        
-                        <div class="col-md-12 gy-4 text-center marginturun">
-                          <div class="loading">Loading</div>
-                          <div class="error-message">Please fill the form </div>
-                          <div class="sent-message">Your message has been sent. Thank you!</div>
-                          <a href="formty.html">
+                          <a href="#">
                             <button type="submit">Submit</button>
                           </a>
                         </div>

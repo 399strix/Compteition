@@ -649,7 +649,13 @@
   .contact .padding{
     padding-right: 0px;
   }
-
+  .contact .twibbon{
+    color: #444444;
+  }
+  .contact .twibbon:hover{
+    cursor: pointer;
+    color: #4154f1;
+  }
   .contact .info-box {
     color: #444444;
     background: #fafbff;

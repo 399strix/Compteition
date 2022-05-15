@@ -550,7 +550,7 @@ section {
   transition: 0.5s;
   color: #E6E6E6;
   background: #7E7CF1;
-  box-shadow: 0px 0px 20px #b1deef62;
+  box-shadow: 2px 2px 20px #b1deef62;
 }
 .hero .btn-rule-book {
   margin-top: 30px;
@@ -562,6 +562,9 @@ section {
   color: #7E7CF1;
   background: #E6E6E6;
   box-shadow: 2px 2px 20px #b1deef62;
+}
+.hero .pad_bawah{
+  padding-bottom: 22px;
 }
 .hero .btn-get-started span {
   font-family: 'Alagard', 'Retro Gaming', 'Quicksand';
