@@ -535,6 +535,16 @@ section {
   font-weight: 600;
   font-size: 20px;
 }
+.hero .biayapendataran{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.hero h3{
+  color: #0f4892;
+  text-shadow: 2px 1px 40px #d4e5f26e;
+  font-weight: 200;
+}
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
@@ -720,10 +730,26 @@ section {
 }
 
 .values .box_1{
+  padding: 60px;
+  padding-top: 80px !important;
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("../gambar/Dirt_lg.png") !important;
   background-size: 800px;
 }
-
+.values .box_2{
+  padding: 60px;
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../gambar/dirt.png") !important;
+  background-size: 600px;
+}
 .values .box_timeline {
 
   text-align: center;
@@ -801,8 +827,25 @@ section {
   font-size: 30px;
   font-family: "Quicksand";
 }
-.values .box p{
+.values .box_1 p{
+  font-size: 35px;
+  font-family: "Quicksand";
+  color: #ffffff;
+}
+.values .box_2 h3 {
   font-size: 40px;
+  color: #7AB229;
+  font-weight: 900;
+  font-family: "Quicksand";
+  text-shadow: 3px 2px #784F56;
+}
+.values .box_2 p{
+  font-size: 30px;
+  color: #423335;
+  font-family: "Quicksand";
+}
+.values .box p{
+  font-size: 30px;
   font-family: "Quicksand";
   color: #ffffff;
 }
@@ -842,15 +885,28 @@ section {
     font-size: 25px !important;
   }
   .values p{
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
   .values .box_1{
     background-image: url("../gambar/Dirt_md.png") !important;
-    background-size: 800px;
+    background-size: 350px;
   }
   .values .box{
     padding-top: 80px !important;
     background-size: 350px;
+  }
+  .values .box_2{
+    background-size: 370px;
+  }
+  .values .box_2 p{
+    font-size: 20px !important;
+  }
+  .values .box_2 h3 {
+    font-size: 23px !important;
+    color: #7AB229;
+    font-weight: 900;
+    font-family: "Quicksand";
+    text-shadow: 2px 1px #784F56;
   }
   .blobvalue{
     background: url("../gambar/satelit\ 1.png") 0% 0% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Cloud\ ppt1.png") 0% 100% no-repeat;; 

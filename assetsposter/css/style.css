@@ -530,6 +530,12 @@ section {
   color: #D4E5F2;
   text-shadow: 5px 5px #6977b4;
 }
+.hero h3{
+  color: #ffffff;
+  text-shadow: 2px 1px 40px #d4e5f26e;
+  font-size: 25px;
+  font-weight: 200;
+}
 .hero h2 {
   font-family: "Quicksand";
   color: #B1DEEF;
